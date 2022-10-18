@@ -1,0 +1,17 @@
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\Entity.dll
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\Entity.pdb
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\Entity.dll.config
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\obj\Debug\DataAccess.Migrations.Mig7.resources
+C:\Users\Orkun\Desktop\ASPprojeler\PersonalPortfolioProject\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
