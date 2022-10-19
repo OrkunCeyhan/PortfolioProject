@@ -1,0 +1,28 @@
+﻿@using Entity.Concrete 
+@model List<Service>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>What i do</h3>
+            <img src="~/MySiteTemplate/assets/img/lines.svg" class="img-lines" alt="lines">
+        </div>
+        @foreach (var service in Model)
+        {
+            if (service.IsActive == true)
+            {
+                <div class="col-sm-4">
+                    <div class="service">
+                        <img src="~/MySiteTemplate/assets/img/front-end.svg" alt="Front End Developer">
+                        <h4>@service.ServiceName</h4>
+                        <p>@service.ServiceDescription</p>
+                    </div><!-- /.service -->
+                </div>
+            }
+
+        }
+
+
+    </div>
+</div>

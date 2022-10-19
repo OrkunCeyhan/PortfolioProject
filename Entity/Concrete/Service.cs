@@ -13,6 +13,8 @@ namespace Entity.Concrete
         public int ServiceID { get; set; }
         [StringLength(50)]
         public string ServiceName { get; set; }
+        [StringLength(500)]
+        public string ServiceDescription { get; set; }
         public bool IsActive { get; set; }
     }
 }

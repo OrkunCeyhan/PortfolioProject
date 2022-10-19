@@ -51,18 +51,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IAboutDal.cs" />
+    <Compile Include="Abstract\IContactDal.cs" />
+    <Compile Include="Abstract\IProjectDal.cs" />
+    <Compile Include="Abstract\IRepositoryDal.cs" />
+    <Compile Include="Abstract\IServiceDal.cs" />
+    <Compile Include="Abstract\ISkillDal.cs" />
     <Compile Include="Concrete\PortfolioContext.cs" />
+    <Compile Include="Concrete\Repositories\GenericRepository.cs" />
+    <Compile Include="EntitiyFramework\EfAboutDal.cs" />
+    <Compile Include="EntitiyFramework\EfContactDal.cs" />
+    <Compile Include="EntitiyFramework\EfProjectDal.cs" />
+    <Compile Include="EntitiyFramework\EfServiceDal.cs" />
+    <Compile Include="EntitiyFramework\EfSkillDal.cs" />
     <Compile Include="Migrations\202210181911564_Mig7.cs" />
     <Compile Include="Migrations\202210181911564_Mig7.designer.cs">
       <DependentUpon>202210181911564_Mig7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202210191613093_mig19.cs" />
+    <Compile Include="Migrations\202210191613093_mig19.designer.cs">
+      <DependentUpon>202210191613093_mig19.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\EntityFramework\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
@@ -76,6 +89,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202210181911564_Mig7.resx">
       <DependentUpon>202210181911564_Mig7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210191613093_mig19.resx">
+      <DependentUpon>202210191613093_mig19.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

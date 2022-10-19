@@ -15,7 +15,7 @@ namespace Entity.Concrete
         public string FullName { get; set; }
         [StringLength(40)]
         public string Job { get; set; }
-        [StringLength(150)]
+        [StringLength(500)]
         public string Description { get; set; }
         [StringLength(150)]
         public string CvLink { get; set; }

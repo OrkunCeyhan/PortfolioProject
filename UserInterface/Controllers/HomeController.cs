@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessLayer.Concrete;
+using DataAccess.EntitiyFramework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,16 +10,26 @@ namespace UserInterface.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        AboutManager aboutManager = new AboutManager(new EfAboutDal());
+        SkillManager skillManager = new SkillManager(new EfSkillDal());
+        ServiceManager serviceManager = new ServiceManager(new EfServiceDal());
+        [HttpGet]
+        public ActionResult Index(int id=2)
         {
-            return View();
+            var about = aboutManager.GetByID(id);
+            //var aboutlist=aboutManager.GetList();
+            return View(about);
         }
 
-        public ActionResult About()
+        public PartialViewResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            var skillList=skillManager.GetList();
+            return PartialView(skillList);
+        }
+        public PartialViewResult Service()
+        {
+            var serviceList = serviceManager.GetList();
+            return PartialView(serviceList);
         }
 
         public ActionResult Contact()
@@ -26,5 +38,6 @@ namespace UserInterface.Controllers
 
             return View();
         }
+
     }
 }

@@ -15,7 +15,7 @@ namespace Entity.Concrete
         public string ProjectName { get; set; }
         [StringLength(150)]
         public string ProjectImgUrl { get; set; }
-        [StringLength(150)]
+        [StringLength(500)]
         public string ProjectDescription { get; set; }
         public bool IsActive { get; set; }
         [StringLength(150)]

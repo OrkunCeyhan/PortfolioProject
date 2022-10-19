@@ -15,7 +15,7 @@ namespace Entity.Concrete
         public string SenderName { get; set; }
         [StringLength(75)]
         public string SenderMail { get; set; }
-        [StringLength(250)]
+        [StringLength(500)]
         public string SenderMessage { get; set; }
 
 
