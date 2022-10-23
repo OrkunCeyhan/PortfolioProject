@@ -13,16 +13,21 @@ namespace UserInterface.Controllers
         AboutManager aboutManager = new AboutManager(new EfAboutDal());
         SkillManager skillManager = new SkillManager(new EfSkillDal());
         ServiceManager serviceManager = new ServiceManager(new EfServiceDal());
+        ProjectManager projectManager = new ProjectManager(new EfProjectDal());
         [HttpGet]
-        public ActionResult Index(int id=2)
+        public ActionResult Index()
         {
-            var about = aboutManager.GetByID(id);
+            var about = aboutManager.GetByID(2);
             //var aboutlist=aboutManager.GetList();
             return View(about);
         }
 
-        public PartialViewResult About()
+        public ActionResult Skill(string value)
         {
+            if (value==null)
+            {
+                return RedirectToAction("Index","Home");
+            }
             var skillList=skillManager.GetList();
             return PartialView(skillList);
         }
@@ -37,6 +42,15 @@ namespace UserInterface.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+        public ActionResult Project(string value)
+        {
+            if (value == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            var projectList = projectManager.GetList();
+            return PartialView(projectList);
         }
 
     }
