@@ -64,18 +64,18 @@
     <Compile Include="EntitiyFramework\EfProjectDal.cs" />
     <Compile Include="EntitiyFramework\EfServiceDal.cs" />
     <Compile Include="EntitiyFramework\EfSkillDal.cs" />
-    <Compile Include="Migrations\202210181911564_Mig7.cs" />
-    <Compile Include="Migrations\202210181911564_Mig7.designer.cs">
-      <DependentUpon>202210181911564_Mig7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202210191613093_mig19.cs" />
-    <Compile Include="Migrations\202210191613093_mig19.designer.cs">
-      <DependentUpon>202210191613093_mig19.cs</DependentUpon>
+    <Compile Include="Migrations\202210251903536_Mig1.cs" />
+    <Compile Include="Migrations\202210251903536_Mig1.designer.cs">
+      <DependentUpon>202210251903536_Mig1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202210251903536_Mig1.resx">
+      <DependentUpon>202210251903536_Mig1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
@@ -85,14 +85,6 @@
       <Project>{039D29A0-DFE0-48C1-B3AE-5C2436B270F6}</Project>
       <Name>Entity</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202210181911564_Mig7.resx">
-      <DependentUpon>202210181911564_Mig7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202210191613093_mig19.resx">
-      <DependentUpon>202210191613093_mig19.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

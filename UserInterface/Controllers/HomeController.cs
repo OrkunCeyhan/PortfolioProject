@@ -23,7 +23,7 @@ namespace UserInterface.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var about = aboutManager.GetByID(2);
+            var about = aboutManager.GetByID(1);
             //var aboutlist=aboutManager.GetList();
             return View(about);
         }

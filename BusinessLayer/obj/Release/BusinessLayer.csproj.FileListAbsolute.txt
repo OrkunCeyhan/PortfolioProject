@@ -1,0 +1,15 @@
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\DataAccess.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\Entity.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\EntityFramework.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\DataAccess.pdb
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\DataAccess.dll.config
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\Entity.pdb
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\Entity.dll.config
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\bin\Release\EntityFramework.xml
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\BusinessLayer\obj\Release\BusinessLayer.pdb

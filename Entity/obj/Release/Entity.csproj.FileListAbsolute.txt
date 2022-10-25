@@ -1,0 +1,12 @@
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\bin\Release\Entity.dll.config
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\bin\Release\Entity.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\bin\Release\Entity.pdb
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\bin\Release\EntityFramework.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\bin\Release\EntityFramework.xml
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\obj\Release\Entity.csproj.AssemblyReference.cache
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\obj\Release\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\obj\Release\Entity.csproj.CopyComplete
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\obj\Release\Entity.dll
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\Entity\obj\Release\Entity.pdb

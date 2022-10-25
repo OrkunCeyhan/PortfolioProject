@@ -26,8 +26,7 @@ C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\bin\Debug\Entity.dll
 C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\bin\Debug\EntityFramework.xml
 C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
-C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\obj\Debug\DataAccess.Migrations.Mig7.resources
-C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\obj\Debug\DataAccess.Migrations.mig19.resources
+C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\obj\Debug\DataAccess.Migrations.Mig1.resources
 C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
 C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\Orkun\Documents\GitHub\PortfolioProject\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
